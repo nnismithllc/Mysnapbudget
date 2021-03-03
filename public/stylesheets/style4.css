@@ -1,0 +1,48 @@
+/* Body Image and Layout Tags */
+body, html {
+    height: 100%;
+    background-image: url("/images/moneyhome4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/* H2 Tag */
+  h2 {
+    color: white;
+    text-align: center;
+  }
+
+/* Row Layout */
+.row {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: fixed;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+}
+
+/* Column Layout */
+.col-md-6 { 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 150px;
+}
+
+/* Logo Tag */
+.logo {
+image-rendering: initial;
+}
+
+/* Form Layout */
+.item-6 {
+margin-top: 100px;
+margin-left: 200px;
+float: right;
+}
